@@ -1,0 +1,276 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size:20px;
+    text-rendering: optimizeLegibility;
+    font-weight:300;
+    background-color: whitesmoke;}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/banner.png);
+    height:891px;
+    width:100%;
+    font-family: 'Lato', sans-serif;
+    
+    background-size: cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+
+.header-one{
+    height:150px;
+    position:relative;
+}
+
+.one{
+    height:150px;
+}
+
+.logo{
+    float:left;
+    height:150px;
+
+}
+
+.logo img {
+    position: absolute;
+    top: 35%;
+    left: 9%;
+    width: 412px;
+    height: 68px;
+}
+
+.navibar{
+    float:left;
+    height:150px;
+    
+}
+
+.navibar nav {
+    position: absolute;
+    top: 43%;
+    left: 1%;
+}
+
+.navibar nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 30px;
+    transition:0.4s ease-out;
+}
+.navibar nav a:hover {
+    border-bottom:1px solid whitesmoke;
+    padding-bottom:10px;
+}
+.header-two{
+    position:relative;
+    height:400px;
+}
+.call{
+    height:300px;
+    width:100%;
+    
+}
+
+.call h1 {
+    font-size: 48px;
+    border: 1px solid rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.5);
+    padding: 21px 49px;
+    color: white;
+    position: absolute;
+    top: 40%;
+}
+
+
+
+.call p {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 84%;
+}
+
+.span-one {
+    border-bottom: 1px solid white;
+    color: transparent;
+    position: absolute;
+    top: 120%;
+}
+
+.btm{
+    padding: 15px 88px;
+    border: 1px solid white;
+    transition:0.3s ease-in;
+
+}
+
+.btm-one{
+    color:whitesmoke;
+    position:absolute;
+    top:150%;
+    background-color: transparent;
+}
+
+.btm-one:hover{
+    background-color: whitesmoke;
+    color:slategrey;
+}
+
+.welcome{
+    height: 648px;
+    margin:0 auto;
+    float:left;
+    width:100%;
+    background-color: whitesmoke;
+    position:relative;
+}
+
+.welcome-content{
+    height:648px;
+    margin:0 auto;
+}
+
+.welcome-content h1 {
+    font-size: 53px;
+    text-transform: uppercase;
+    font-weight: 300;
+    position: absolute;
+    top: 29%;
+    letter-spacing: 1px;
+    color: #333333;
+    width: 98%;
+}
+
+.span-two{
+    border-bottom: 1px solid black;
+    color: transparent;
+    position: absolute;
+    top: 51%;
+}
+
+.welcome-content p {
+    color: #c3c3c3;
+    font-size: 18px;
+    position: absolute;
+    top: 61%;
+    font-size:18px;
+    width:70%;
+
+}
+
+.welcome-pic{
+    height:648px;
+    margin:0 auto;
+}
+
+.welcome img {
+    position: absolute;
+    top: 41%;
+    width: 928px;
+    height: 497px;
+    left: -46%;
+    right: -28%;
+}
+
+.another-title{
+    width:100%;
+    height:618px;
+    background-color:#28282e;
+    position:relative;
+    float:left;
+}
+
+.another-title-content {
+    width:100%;
+    height:618px;
+}
+
+.another-title-content img {
+    height: 206px;
+    position: absolute;
+    top: -112px;
+    width: 225px;
+    left: 54%;
+}
+
+.another-title-content h1{
+    text-transform:uppercase;
+    position:relative;
+    top:16%;
+    color:white;
+    font-size:53px;
+}
+
+.span-three{
+    border-bottom: 1px solid white;
+    color: transparent;
+    position: absolute;
+    top: 28%;
+}
+
+.another-title-content p {
+    position: absolute;
+    top: 36%;
+    color: #9b9b9d;
+    font-size: 18px;
+    width: 82%;
+}
+
+.another-title-pic{
+    width:100%;
+    height:618px;
+}
+
+.another-title-pic img {
+    position: absolute;
+    width: 767px;
+    height: 146px;
+    top: 36%;
+    right: -17%;
+}
+
+
+.btm-two{
+    color:whitesmoke;
+    position:absolute;
+    top:65%;
+    background-color: transparent;
+    padding:15px 19px;
+    font-size:14px;
+}
+
+.btm-two:hover{
+    background-color: whitesmoke;
+    color:slategrey;
+}
+
+footer{
+    height:100px;
+    background-color: #ef4035;
+    width:100%;
+    float:left;
+
+}
+
+.footer-content{
+    height:100px;
+    background-color: #ef4035;
+    position:relative;
+}
+
+.footer-content p {
+    color: white;
+    font-size: 18px;
+    position: Absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+}
